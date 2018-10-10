@@ -1,0 +1,15 @@
+{
+    "nome": "Kit cama 211 fios",
+    "precoDe": 98,
+    "precoPor": 298,
+    "categorias": [
+    	"5bbc10080136c927002dd1b6",
+    	"5bbc10710136c927002dd1b7"
+	],
+	"imagens": [
+		"https://picsum.photos/100/100/?random",
+		"https://picsum.photos/100/100/?random",
+		"https://picsum.photos/100/100/?random",
+		"https://picsum.photos/100/100/?random"
+	]
+}

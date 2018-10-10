@@ -18,6 +18,14 @@ module.exports = function() {
     //- Cookie Parser
     app.use(cookieParser());
 
+    // Add headers
+    app.use(function (req, res, next) {
+        res.setHeader('Access-Control-Allow-Origin', 'https://ammoui.netlify.com');
+        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+        res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+        next();
+    });
+
     //- Express Session
     app.use(session({
         secret: 'ammo.api',
